@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block body %}
+<!--<div style="background: linear-gradient(grey, white)">-->
+<div style="background: linear-gradient(0deg, rgba(54,96,162,1) 0%, rgba(187,63,124,1) 100%)">
+<div class="container center" style="padding : 25% 25% 25% ">
+    <div class="row text-center text-light"><h1>image scraping from google</hv></div>   
+
+    <div class="row" >
+        <div class= "text-center">
+            <form action = "/review" , method= "POST">
+                <div class="" style="margin-top: 2em">
+                <input type = "text" class="form-control" name="search_word" required>
+                <input type ="submit" value="scrap" class="btn btn-primary btn-lg btn-sm"  style="margin-top: 1.2em"></div>
+                
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+
+{% endblock  %}
